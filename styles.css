@@ -1,0 +1,135 @@
+:root{
+    --color-Primary: #006241;
+    --color-Secondary: #d50032;
+    --color-Extra: #d4e9e2;
+}
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+html, body{
+line-height: 1.4;
+color: black;
+}
+
+p{
+    margin: 5px,0;
+    line-height: 1.7;
+}
+ul{
+    list-style: none;
+}
+.navbar{
+height: auto;
+background-color: white;
+
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar a:hover{
+    font-weight: bold;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 50px;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+  
+}
+.navbar li{
+    margin: 0 15px;
+    display: flex;
+    
+}
+.navbar-left{
+    text-transform: uppercase;
+    flex: 1;
+    margin-left: 20px;
+}
+.navbar-left li:first-child{
+    border-radius: 5px;
+    background-color: var(--color-Primary);
+    transition: 0.8;
+    padding: 5px;
+    border:none;
+    
+}
+
+.navbar-container{
+    margin:0 10px;
+}
+.btn-secondary, .btn-Primary{
+    border-radius: 5px;
+    color: white;
+    
+}
+.btn-secondary{
+    border-color: var(--color-Secondary);
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+.btn-Primary{
+background-color: var(--color-Primary);
+border: none;
+padding: 5px;
+}
+.Store{
+    margin: 0auto;}
+.first-body{
+    display: flex;
+   
+}
+.body{
+    margin-right: 40%;   
+
+}
+.main-body{
+
+}
+.body img{
+    height: 100px;
+}
+.header{
+    margin: center;
+}
+.subheader{
+    display: flex;
+}
+.subheader img{
+    width: 80px;
+}
+.announcement{
+    margin-left: 60%;
+    background-color: #d50032;
+    transition: 0.3;
+}
+.john{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+    .navbar{
+        flex-direction: column;}
+}
